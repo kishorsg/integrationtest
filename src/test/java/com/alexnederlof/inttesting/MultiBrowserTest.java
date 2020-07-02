@@ -19,7 +19,7 @@ public abstract class MultiBrowserTest implements SlowTest {
 
 	@Parameters(name = "browser={0}")
 	public static List<Object[]> data() {
-		return Arrays.asList(new Object[][] { { "*firefox" },
+		return Arrays.asList(new Object[][] { 
 				{ "*googlechrome" } });
 	}
 
